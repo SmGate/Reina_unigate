@@ -1,0 +1,11 @@
+
+mkdir .fvm
+
+ln -s ~/.fvm/versions/3.32.6 .fvm/flutter_sdk
+💡 You can verify it exists by:
+ls -la .fvm
+
+Expected:
+
+flutter_sdk -> /Users/tms/.fvm/versions/version_some
+

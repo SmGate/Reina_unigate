@@ -1,0 +1,14 @@
+import 'package:flutter/foundation.dart';
+import 'package:flutter/widgets.dart';
+import 'package:go_router/go_router.dart';
+import 'package:unigate/core/app_shell/pages/app_shell.dart';
+import 'package:unigate/core/app_shell/pages/splash_screen.dart';
+import 'package:unigate/core/routing/routes_enums.dart';
+import 'package:unigate/features/auth/presentation/pages/login_page.dart';
+import 'package:unigate/features/auth/presentation/pages/forgot_password_page.dart';
+import 'package:unigate/features/auth/presentation/pages/otp_screen.dart';
+import 'package:unigate/features/auth/presentation/pages/signup_options_page.dart';
+import 'package:unigate/features/auth/presentation/pages/user_signup.dart';
+import 'package:unigate/features/onboading/pages/onboarding_screen.dart';
+import 'package:unigate/features/profile_setup/presentation/pages/profile_setup_main_page.dart';
+part 'routes.dart';
